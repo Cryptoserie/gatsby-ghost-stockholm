@@ -34,7 +34,7 @@ try {
 
 if (
   process.env.NODE_ENV === `production` &&
-  config.siteUrl === `http://localhost:8000` &&
+  config.siteUrl === `http://cryptoserie.com` &&
   !process.env.SITEURL
 ) {
     throw new Error(`siteUrl can't be localhost and needs to be configured in siteConfig. Check the README.`) // eslint-disable-line
@@ -111,7 +111,7 @@ module.exports = {
           HackersTweets: {
             endpoint: `statuses/user_timeline`,
             params: {
-              screen_name: `hackersslackers`,
+              screen_name: `Cryptoserie`,
               include_rts: true,
               exclude_replies: false,
               tweet_mode: `extended`,
