@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://hackersandslackers.app",
-    "contentApiKey": "d23675c5c8bf2a03d5ee72684b"
+    "apiUrl": "https://cryptoserie.digitalpress.blog",
+    "contentApiKey": "c7f664778f5d2c7b01287f5808"
   },
   "production": {
-    "apiUrl": "https://hackersandslackers.app",
-    "contentApiKey": "d23675c5c8bf2a03d5ee72684b"
+    "apiUrl": "https://cryptoserie.digitalpress.blog",
+    "contentApiKey": "c7f664778f5d2c7b01287f5808"
   }
 }
