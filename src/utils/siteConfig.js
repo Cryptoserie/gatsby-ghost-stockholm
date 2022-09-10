@@ -1,8 +1,8 @@
 module.exports = {
-  siteUrl: `https://hackersandslackers.com`, // Do not include a trailing slash.
-  siteRss: `https://hackersandslackers.com/rss.xml`,
-  siteMap: `https://hackersandslackers.com/sitemap.xml`,
-  siteAdminUrl: `https://hackersandslackers.app`,
+  siteUrl: `https://cryptoserie.com`, // Do not include a trailing slash.
+  siteRss: `https://cryptoserie.com/rss.xml`,
+  siteMap: `https://cryptoserie.com/sitemap.xml`,
+  siteAdminUrl: `https://cryptoserie.digitalpress.blog`,
   postsPerPage: 10, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
   siteTitleMeta: `Hackers and Slackers`, // This allows an alternative site title for metadata for pages.
   siteDescriptionMeta: `Community of hackers obsessed with data science, data engineering, and analysis. Openly pushing a pro-robot agenda.`, // This allows an alternative site description for meta data for pages.
@@ -27,8 +27,8 @@ module.exports = {
     shareImageHeight: 523, // Change to the height of your default share image
   },
   lambda: {
-    scrape: `https://hackersandslackers.com/.netlify/functions/scrape?url=`,
-    auth: `https://hackersandslackers.com/.netlify/functions/auth`,
+    scrape: `https://cryptoserie.com/.netlify/functions/scrape?url=`,
+    auth: `https://cryptoserie.com/.netlify/functions/auth`,
   },
   creator: {
     name: `Todd Birchard`,
